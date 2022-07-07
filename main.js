@@ -1,4 +1,4 @@
-document.querySelector('#getButton').addEventListener('click', apiStarTrek)
+document.getElementById('getButton').addEventListener('click', apiStarTrek)
 
 async function apiStarTrek(){
     const alienName = document.querySelector('input').value
